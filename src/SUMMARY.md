@@ -6,6 +6,7 @@
   - [连接](cmd/connect.md)
   - [传输](cmd/transport.md)
   - [git](cmd/git.md)
+- [Dev](dev/index.md)
 - [Kernel](kernel/index.md)
   - [compile](kernel/compile.md)
   - [arch](kernel/arch.md)
