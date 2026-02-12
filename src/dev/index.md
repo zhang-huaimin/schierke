@@ -41,17 +41,18 @@ index = "https://rsproxy.cn/crates.io-index"
 git-fetch-with-cli = true
 EOF
 
+```
+
+## python3
+
+```shell
 mkdir -p ~/.config/uv/uv.toml
 cat > ~/.config/uv/uv.toml << EOF
 [[index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 default = true
 EOF
-```
 
-## python3
-
-```shell
 zypper install python313 python313-devel
 
 zypper install python313-uv

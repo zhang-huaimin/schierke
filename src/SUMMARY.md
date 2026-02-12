@@ -7,6 +7,7 @@
   - [传输](cmd/transport.md)
   - [git](cmd/git.md)
 - [Dev](dev/index.md)
+  - [fedora](dev/fedora.md)
 - [Kernel](kernel/index.md)
   - [compile](kernel/compile.md)
   - [arch](kernel/arch.md)

@@ -1,7 +1,7 @@
 # mdbook build .
 
 [book]
-authors = ["zhang.songyi@zte.com.cn"]
+authors = ["aatroxfly"]
 language = "zh-CN"
 src = "src"
 title = "schierke"
