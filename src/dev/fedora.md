@@ -44,14 +44,27 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 skip_if_unavailable=False
 ```
 
+
 ## base
 
 ```shell
 dnf install vim-enhanced fish ripgrep fd-find git make cmake gcc gcc-c++ python3 cargo rustc go perl docker-compose docker-cli zstd alacritty -y
 
+echo '' | ssh-keygen -P ''
+
 systemctl enable sshd
 systemctl restart sshd
+
 ```
+
+
+## git
+
+```shell
+git config --global user.name "gloria"
+git config --global user.email "aatroxfly@gmail.com"
+```
+
 
 ## cargo
 ```shell
