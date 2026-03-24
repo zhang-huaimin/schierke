@@ -2,6 +2,8 @@
 
 # Linux
 
+- [AI](ai/index.md)
+  - [openclaw](ai/openclaw.md)
 - [Cmd](cmd/index.md)
   - [连接](cmd/connect.md)
   - [传输](cmd/transport.md)
